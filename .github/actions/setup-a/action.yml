@@ -1,0 +1,9 @@
+name: Setup A
+
+runs:
+  using: composite
+  steps:
+    - uses: runs-on/cache@88d90644011a3a9957fd141a106f5a94f9794203
+      with:
+        key: a
+        path: cache-file
