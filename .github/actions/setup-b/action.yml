@@ -3,7 +3,7 @@ name: Setup B
 runs:
   using: composite
   steps:
-    - uses: shivammathur/setup-php
+    - uses: shivammathur/setup-php@f3e473d116dcccaddc5834248c87452386958240
     - uses: runs-on/cache@88d90644011a3a9957fd141a106f5a94f9794203
       with:
         key: b
