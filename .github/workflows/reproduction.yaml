@@ -13,5 +13,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - parallel:
-          - uses: ./.github/actions/setup-a
-          - uses: ./.github/actions/setup-b
+          - uses: $/.github/actions/setup-a
+          - uses: $/.github/actions/setup-b
