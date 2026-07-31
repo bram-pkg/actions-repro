@@ -13,6 +13,8 @@ jobs:
           - uses: runs-on/cache@88d90644011a3a9957fd141a106f5a94f9794203
             with:
               key: a
+              path: cache-file
           - uses: runs-on/cache@88d90644011a3a9957fd141a106f5a94f9794203
             with:
               key: b
+              path: cache-file
